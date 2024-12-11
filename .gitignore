@@ -1,0 +1,46 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+*.swp
+
+# Dependências (caso use o pipenv ou poetry)
+Pipfile.lock
+poetry.lock
+*.egg-info/
+
+# Arquivos temporários
+*.log
+*.bak
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache
+*.cache
+
+# Arquivos de saída de builds (caso haja algum processo de build)
+build/
+dist/
+*.egg
+
+# Arquivos de configuração de testes
+.coverage
+*.cover
+nosetests.xml
+pytest.xml
+test-reports/
+
+# Arquivos de exportação do OpenTelemetry (se aplicável)
+*.otlp
